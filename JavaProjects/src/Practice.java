@@ -3,6 +3,10 @@ public class Practice {
         System.out.println(allowedToSit(1100));
         isEvenNumber(2);
         numberInRange(51);
+        System.out.println("this line is added on line 6 from Mayank changed second time");
+        System.out.println("this line is added on line 7 from Mayank changed second time");
+        System.out.println("just for testing *****");
+        System.out.println("just for testing *****");
     }
     public static void practice3(){
         System.out.println("Change2");
