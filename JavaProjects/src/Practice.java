@@ -7,6 +7,8 @@ public class Practice {
         System.out.println("this line is added on line 7 from Mayank changed second time");
         System.out.println("Kishan changed 1");
         System.out.println("just for testing *****");
+        System.out.println("Mayank Patel");
+        System.out.println("Mayank PAtel *****");
         System.out.println("just for testing *****");
     }
     public static void practice3(){
