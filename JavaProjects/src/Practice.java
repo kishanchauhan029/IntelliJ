@@ -4,7 +4,9 @@ public class Practice {
         isEvenNumber(2);
         numberInRange(51);
     }
-
+    public static void practice3(){
+        System.out.println("Change2");
+    }
     public static void isEvenNumber(int number) {
         if(number % 2 == 0) {
             System.out.println(number + " is even");
@@ -13,7 +15,9 @@ public class Practice {
             System.out.println(number + " is odd");
         }
     }
-
+public static void practice(){
+        System.out.println("Practice");
+    }
     public static void numberInRange(int number) {
         if(number >= 50 && number <= 100) {
             System.out.println(number + " is within range");
