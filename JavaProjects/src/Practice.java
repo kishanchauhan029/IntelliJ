@@ -3,6 +3,9 @@ public class Practice {
         System.out.println(allowedToSit(1100));
         isEvenNumber(2);
         numberInRange(51);
+        System.out.println("this line is added on line 6 from Mayank");
+        System.out.println("this line is added on line 7 from Mayank");
+        System.out.println("just for testing");
     }
 
     public static void isEvenNumber(int number) {
