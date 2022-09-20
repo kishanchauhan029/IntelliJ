@@ -12,6 +12,7 @@ public class BodyMassIndex {
         System.out.println("Your Weight:");
         float height = scanner.nextFloat();
         System.out.println("Your BMI is:" + weight/(height*height));
+        System.out.println("Git Test Done!");
         return weight/(height*height);
     }
 }
