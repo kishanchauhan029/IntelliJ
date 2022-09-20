@@ -8,7 +8,7 @@ public class Practice {
         System.out.println("Kishan changed 1");
         System.out.println("just for testing *****");
         System.out.println("Mayank Patel");
-        System.out.println("Mayank PAtel *****");
+        System.out.println("Mayank Patel *****");
         System.out.println("just for testing *****");
         System.out.println("Added another line of code");
     }
