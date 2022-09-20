@@ -1,6 +1,7 @@
 public class Practice {
     public static void main(String[] args) {
         System.out.println(allowedToSit(1100));
+        System.out.println("this line is from featuremayank");
         isEvenNumber(2);
         numberInRange(51);
         System.out.println("this line is added on line 6 from Mayank changed second time");
@@ -8,6 +9,7 @@ public class Practice {
         System.out.println("Mayank Patel");
         System.out.println("Mayank PAtel *****");
         System.out.println("just for testing *****");
+        System.out.println("this line is from featuremayank");
     }
     public static void practice3(){
         System.out.println("Change2");
@@ -20,6 +22,7 @@ public class Practice {
             System.out.println(number + " is odd");
         }
     }
+    System.out.println("this line is from featuremayank");
 public static void practice(){
         System.out.println("Practice");
     }
