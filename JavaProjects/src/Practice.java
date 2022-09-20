@@ -10,6 +10,7 @@ public class Practice {
         System.out.println("Mayank Patel");
         System.out.println("Mayank PAtel *****");
         System.out.println("just for testing *****");
+        System.out.println("Added another line of code");
     }
     public static void practice3(){
         System.out.println("Change2");
