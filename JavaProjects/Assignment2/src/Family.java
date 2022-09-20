@@ -1,26 +1,57 @@
-public class Family {
-    public static void main(String[] args) {
-        String FatherName;
-        String MotherName;
-        String SonName;
-        String DaughterName;
-        int FatherSalary;
-        int MotherSalary;
-        int SonFee;
-        int DaughterFee;
-        int Grocery = 500;
+import com.sun.tools.javac.Main;
 
-        public int getTotalSalary(FatherSalary, MotherSalary){
-            int TotalSalary = FatherSalary+MotherSalary;
-            return TotalSalary;
+public class Family {
+    String FatherName, MotherName, SonName, DaughterName;
+    int FatherSalary, MotherSalary, SonFee, DaughterFee;
+    int Grocery = 500;
+
+    public static void main(String[] args) {
+Family fam = new Family("Haresh", "Beena", "Kish", "Nik");
+Family fam1 = new Family(434, 5453, 43,43);
+fam.getSavigs();
+fam.getTotalFee();
+fam.getTotalSalary();
+fam.savingCheck();
+fam.displayNames();
+
+
+    }
+        Family (String fatherName, String motherName, String sonName, String daughterName) {
+            FatherName = fatherName;
+            MotherName = motherName;
+            SonName = sonName;
+            DaughterName = daughterName;
         }
-        public int getTotalFee(SonFee, DaughterFee){
-            int TotalFee = SonFee+DaughterFee;
-            return TotalFee;
+        Family(int fatherSalary, int motherSalary, int sonFee, int daughterFee){
+        FatherSalary = fatherSalary;
+        MotherSalary = motherSalary;
+        SonFee = sonFee;
+        DaughterFee = daughterFee;
         }
-        public int getSavings(){
-            int Savings = TotalSalary - TotalFee;
-            return Savings;
+    public void displayNames() {
+        System.out.println(FatherName);
+        System.out.println(MotherName);
+        System.out.println(SonName);
+        System.out.println(DaughterName);
+    }
+
+    public int getTotalSalary () {
+        return FatherSalary + MotherSalary;
+    }
+
+    public int getTotalFee () {
+        return SonFee + DaughterFee;
+    }
+
+    public int getSavigs () {
+        return getTotalSalary() - getTotalFee() - Grocery;
+    }
+
+    public void savingCheck () {
+        if (getSavigs() >= 1000) {
+            System.out.println("Congratulations!! " + FatherName + " you saved this much = " + getSavigs());
+        } else {
+            System.out.println("Dear " + FatherName + " Please try to save for the next month!");
         }
     }
-}
+    }

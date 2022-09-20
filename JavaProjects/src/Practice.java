@@ -6,10 +6,13 @@ public class Practice {
         numberInRange(51);
         System.out.println("this line is added on line 6 from Mayank changed second time");
         System.out.println("this line is added on line 7 from Mayank changed second time");
+        System.out.println("Kishan changed 1");
+        System.out.println("just for testing *****");
         System.out.println("Mayank Patel");
-        System.out.println("Mayank PAtel *****");
+        System.out.println("Mayank Patel *****");
         System.out.println("just for testing *****");
         System.out.println("this line is from featuremayank");
+        System.out.println("Added another line of code");
     }
     public static void practice3(){
         System.out.println("Change2");
